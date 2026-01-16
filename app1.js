@@ -13,13 +13,13 @@ function addTodo(ele){
     const li=document.createElement("li") 
     li.classList.add("li")
     const updateBtn=document.createElement("button")
-    updateBtn.textContent="Update"
+    updateBtn.textContent="Upd"
     updateBtn.classList.add("update-btn")   
     const delbtn=document.createElement("button")
-    delbtn.textContent="Delete"   
+    delbtn.textContent="Del"   
     delbtn.classList.add("delete-btn")
     const completeBtn=document.createElement("button")
-    completeBtn.textContent="Complete"   
+    completeBtn.textContent="Comp"   
     completeBtn.classList.add("complete-btn")
     
     li.innerText=Inputvalue.value
