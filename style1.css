@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-
+:root {
+    --bg-gradient: linear-gradient(140deg, #83834d 50%, #33341e 50%);
+}
 body {
-    background-color: rgb(212, 255, 212);
+    background: var(--bg-gradient);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +17,7 @@ h1 {
     margin-top: 0px;
     font-size: 40px;
     background-color: rgb(4, 29, 0);
-    color:  #cdff81;
+    color: #eaee00;
     text-align: center;
     font-family: "Creepster", system-ui;
     font-weight: 400;
@@ -23,7 +25,7 @@ h1 {
     animation: slideRight 1.8s ease forwards;
 }
 .todoInput {
-    background-color: rgb(19, 195, 3);
+    background-color: rgb(135, 133, 29);
     height: 100px;
     margin-top: -27px;
 }
@@ -37,11 +39,11 @@ h1 {
     width: auto;
     margin-left: -10px;
     border: none;
-    background-color: rgb(186, 255, 82);
+    background-color: rgb(216, 213, 0);
     font-weight: bolder;
 }
 .todoInput button:hover {
-    background-color: rgb(18, 43, 18);
+    background-color: rgb(41, 43, 18);
     color: white;
 }
 #todoList {
@@ -62,21 +64,21 @@ h1 {
 .update-btn {
     position: relative;
     left: 5%;
-    background-color: rgb(42, 140, 76);
+    background-color: rgb(0, 70, 25);
     color: white;
     margin: 2px;
 }
 .update-btn:hover {
-    background-color: rgb(18, 66, 18);
+    background-color: rgb(0, 30, 0);
 }
 .delete-btn {
     position: relative;
     left: 5%;
-    background-color: rgb(179, 0, 0);
+    background-color: rgb(88, 0, 0);
     color: white;
 }
 .delete-btn:hover {
-    background-color: rgb(81, 0, 0);
+    background-color: rgb(32, 0, 0);
 }
 .complete-btn{
     position: relative;
@@ -93,7 +95,7 @@ h1 {
     overflow-wrap: break-word;
     margin-bottom: 3px;
     margin-left: -25px;
-    background-color: rgb(173, 212, 163);
+    background-color: rgb(212, 210, 163);
 }
 @keyframes slideRight {
     0% {
